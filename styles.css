@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+}
+.frame {
+    border: 5px solid silver;
+    width: 450px;
+    height: 600px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 30px;
+    /* https://cssgradient.io/ */
+    background: rgb(159,159,159);
+    background: -moz-radial-gradient(circle, rgba(159,159,159,1) 44%, rgba(153,153,153,1) 53%, rgba(119,119,119,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(159,159,159,1) 44%, rgba(153,153,153,1) 53%, rgba(119,119,119,1) 100%);
+    background: radial-gradient(circle, rgba(159,159,159,1) 44%, rgba(153,153,153,1) 53%, rgba(119,119,119,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9f9f9f",endColorstr="#777777",GradientType=1);
+}
+.screen {
+    height: 250px;
+    border: 1px solid black;
+    margin: 30px;
+    background: black;
+    border-radius: 7px;
+}
+.touchwheel {
+    height: 250px;
+    border: 1px solid;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 250px;
+}
+.B {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.menu.B {
+    margin: 10px auto;
+}
+.r2 {
+    display: flex;
+    align-items: center;
+    margin-top: calc((125px - 65px)/2);
+}
+.select.B {
+    height: 65px;
+    width: 65px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.playpause.B {
+    margin-top: 30px;
+}
