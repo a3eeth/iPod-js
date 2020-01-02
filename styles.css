@@ -28,10 +28,11 @@ body {
 }
 .touchwheel {
     height: 250px;
-    border: 1px solid;
+    border: 1px solid #929292;
     margin: 0 auto;
     border-radius: 50%;
     width: 250px;
+    background: #a7a6a6;
 }
 .B {
     position: relative;
@@ -42,18 +43,28 @@ body {
 }
 .menu.B {
     margin: 10px auto;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
 }
 .r2 {
     display: flex;
     align-items: center;
-    margin-top: calc((125px - 65px)/2);
+    /* margin-top: calc((125px - 65px)/2); */
+    margin: calc((125px - 4px)/4) 0;
 }
 .select.B {
     height: 65px;
     width: 65px;
-    border: 1px solid black;
     border-radius: 50%;
     margin: 30px auto;
+    background: rgb(194,188,188);
+background: linear-gradient(0deg, rgba(194,188,188,1) 0%, rgba(158,158,158,1) 100%);
+}
+div.back.B {
+    margin-left: 10px;
+}
+div.forward.B {
+    margin-right: 10px;
 }
 .playpause.B {
     margin-top: 30px;

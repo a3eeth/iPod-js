@@ -1,17 +1,25 @@
-// var menu = document.getElementById('menuButton');
+document.addEventListener("DOMContentLoaded", function (event) {
+    var menuB = document.getElementById('menuButton');
+    var backB = document.getElementById('backButton');
+    var selectB = document.getElementById('selectButton');
+    var forwardB = document.getElementById('forwardButton');
+    var playpauseB = document.getElementById('playpauseButton');
 
-function menuClicked() {
-    console.log('menu')
-}
-function backClicked() {
-    console.log('back')
-}
-function selectClicked() {
-    console.log('select');
-}
-function forwardClicked() {
-    console.log('forward');
-}
-function playpauseClicked() {
-    console.log('play|pause');
-}
+    menuB.addEventListener('click', function() {
+        console.log('menu');
+    });
+    backB.addEventListener('click', function() {
+        console.log('back');
+    });
+    selectB.addEventListener('click', function() {
+        console.log('select');
+    });
+    forwardB.addEventListener('click', function() {
+        console.log('forward');
+    });
+    playpauseB.addEventListener('click', function() {
+        console.log('play | pause');
+
+        // add code to toggle button icon
+    });
+});
