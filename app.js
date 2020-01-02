@@ -5,8 +5,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     var forwardB = document.getElementById('forwardButton');
     var playpauseB = document.getElementById('playpauseButton');
 
+    var screen = document.getElementById('display');
+
     menuB.addEventListener('click', function() {
         console.log('menu');
+
+        // screen.textContent += event.target[0].id;
     });
     backB.addEventListener('click', function() {
         console.log('back');
